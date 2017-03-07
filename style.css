@@ -1,0 +1,139 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+hr{
+  width: 90%;
+  margin-left: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.title{
+  margin: 10px 15px;
+  color: #3498db;
+}
+
+.lefttitle{
+  padding: 10px 15px;
+  background: #3498db;
+}
+
+
+#container {
+  width: 210mm;
+  height: 297mm;
+  margin: 0 auto;
+}
+
+#left-column {
+  width: 25%;
+  height: 100%;
+  display: inline-block;
+  color: #ecf0f1;
+  background-color: #6C7A89;
+  vertical-align: top;
+}
+
+#right-column {
+  width: 72%;
+  height: 100%;
+  display: inline-block;
+  background-color: #ecf0f1;
+  vertical-align: top;
+  color: #6C7A89;
+}
+
+#name{
+  height: 14%;
+  font-size: 48px;
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.firstname{
+  font-weight: 400;
+}
+
+.lastname{
+  font-weight: 100;
+}
+
+
+#profile{
+    height: 50%;
+    font-size: 12px;
+    text-align: left;
+    margin: 15px;
+}
+
+.profilepoints{
+  display: block;
+  margin-top: 5px;
+}
+
+#technicalskills{
+    height: 30%;
+    margin: 15px;
+}
+
+.skill{
+  margin:10px;
+  font-size:10px;
+}
+.percentage{
+  display: block;
+  height: 3px;
+  background:#3498db;
+}
+.item{
+  height: 3px;
+  width:150px;
+  background: grey;
+  margin: 0 10px;
+}
+
+i{
+  margin: 5px;
+}
+
+#contacts{
+    height: 10%;
+}
+.col1, .col2{
+  margin: 10px;
+  display: inline-block;
+}
+
+#workexp{
+    height: 63%;
+    margin-left: 20px;
+}
+
+.projecttitle{
+  font-size: 16px;
+  display: block;
+  color: #f39c12;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.technologiesused{
+  display: block;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+#education{
+    height: 3%;
+    margin-left: 20px;
+}
+
+#certifications{
+    height: 5%;
+    margin-left: 20px;
+}

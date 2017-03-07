@@ -1,0 +1,108 @@
+<html>
+  <head>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,900" rel="stylesheet">
+    <script src="https://use.fontawesome.com/feba83bb83.js"></script>
+  </head>
+  <body>
+    <div id="container">
+        <div id="left-column">
+
+          <div id="name">
+            <span class="firstname">AMIN</span>
+            <span class="lastname">SHAIKH</span>
+          </div>
+
+          <div class="lefttitle">PROFILE</div>
+          <div id="profile">
+
+              <span class="profilepoints">Technology Analyst at Infosys Ltd with 5 years of work experience in web technologies such as Javascript based frameworks, Java/J2EE, Perl and RESTful Web Services.</span>
+              <span class="profilepoints">Experience in requirements analysis, design, development, debugging, defect fixing and deployment of applications for multiple projects.</span>
+              <span class="profilepoints">Experience in Web based and mobile based applications and project execution experience with agile methodology.</span>
+              <span class="profilepoints">Has over 3 years of experience in Cisco environment and around 1 year of experience in Mobility domain.</span>
+              <span class="profilepoints">Adaptable to multiple technologies, with strong competency level in Javascript based frameworks.</span>
+              <span class="profilepoints">Sincere, enthusiastic and hardworking with good communication and interpersonal skills, is passionate in learning new skills and positive to take new roles and responsibilities.</span>
+
+          </div>
+
+          <div class="lefttitle">TECHNICAL PROFICIENCY</div>
+          <div id="technicalskills">
+              <div class="skill">JAVASCRIPT</div>
+              <div class="item"><span class="percentage" perc="80"></span></div>
+              <div class="skill">ANGULARJS</div>
+              <div class="item"><span class="percentage" perc="80"></span></div>
+              <div class="skill">NODEJS</div>
+              <div class="item"><span class="percentage" perc="80"></span></div>
+              <div class="skill">MONGODB</div>
+              <div class="item"><span class="percentage" perc="70"></span></div>
+              <div class="skill">CORE JAVA</div>
+              <div class="item"><span class="percentage" perc="70"></span></div>
+              <div class="skill">PERL</div>
+              <div class="item"><span class="percentage" perc="60"></span></div>
+        </div>
+      </div>
+
+      <div id="right-column">
+
+          <div class="title">CONTACT</div><hr>
+          <div id="contacts">
+            <div class="col1">
+              <div><i class="fa fa-map-marker" aria-hidden="true"></i>Bengaluru, India, Earth</div>
+              <div><i class="fa fa-phone" aria-hidden="true"></i>+91 9972307906</div>
+              <div><i class="fa fa-envelope" aria-hidden="true"></i>amin@halfstack.ninja</div>
+            </div>
+            <div class="col2">
+              <div><i class="fa fa-linkedin-square" aria-hidden="true"></i>https://in.linkedin.com/in/mohammedaminshaikh</div>
+              <div><i class="fa fa-github" aria-hidden="true"></i>https://github.com/pix-el</div>
+              <div><i class="fa fa-stack-overflow" aria-hidden="true"></i>http://stackoverflow.com/users/3306963/a-i</div>
+            </div>
+          </div>
+
+          <div class="title">WORK EXPERIENCE</div><hr>
+          <div id="workexp"><span class="projecttitle">Evise (November 2016 – till date)</span>
+            Evise is Elsevier’s new web-based System to support the editorial process for journals.
+            Contributed on the submissions service of Evise wherein an author can submit his new manuscript for publishing, which gets published once it goes through the editorial and review process.
+            Overcame challenges on migrating the application to a different environment, glueing together various existing components and making them compatible to work together.
+            <br>
+            <span class="technologiesused">Technologies used: Hapi, NodeJS, FlightJs, Dropwizard, Zookeeper, ELK Stack, AWS</span>
+            <span class="projecttitle">Entitlement Base (August 2016 – November 2016)</span>
+            EB is a cross-functional program to enable Single enterprise-wide “Smart Account 2.0” view and allow Cisco customers to self organize and administer their entitlements, assets & user role/access, etc.
+            Contributed on design and development of MongoDB datamodels to migrate and cache data from Oracle databases to mongodb, and creating REST APIs for consumption of that data using Swagger, ExpressJS and NodeJS.
+
+            <br>
+            <span class="technologiesused">Technologies used: MongoDB, Apache Kafka, ExpressJS, Swagger, NodeJS, Oracle, OpenShift, Docker</span>
+            <span class="projecttitle">Delivery Collaboration Portal (Jan 2016 – July 2016)</span>
+            DCP2.0 is used by Cisco Delivery Services users, facilitating collaboration and exchange of information between Cisco and its customers. It is a cloud based portal, available to Cisco customers and partners, as well the Cisco internal users.
+            Contributed on creating a fresh AngularJS based frontend for the portal, which was initially created using DOJO, while using the existing backend databases and service structure from DCP1.0
+            Successfully delivered the application as a team under a very strict deadline.
+
+            <br>
+            <span class="technologiesused">Technologies used: AngularJs, RequireJS, Bootstrap, Grunt, Gitlab, Jenkins</span>
+
+            <span class="projecttitle">Smart Services User Experience (SSUE) (Sep 2014 – Dec 2015)</span>
+            Smart Services User Experience (SSUE) (Sep 2014 – Dec 2015)
+            SSUE is an Entitlement based UE framework which allows for personalization and support for localization.
+            Contributed on development of widgets for SSUE using AngularJS and backend migration to NodeJS from Java. Worked from client location with Cisco dev team on this project.
+
+            <br>
+            <span class="technologiesused">Technologies used: AngularJs, Gulp, NodeJS, Bootstrap, Gitlab</span>
+          </div>
+
+          <div class="title">EDUCATION</div><hr>
+          <div id="education">Bachelor of Electronics Engineering from Mumbai University (2007-2011)</div>
+
+          <div class="title">CERTIFICATIONS</div><hr>
+          <div id="certifications">Microsoft 70-480: Programming in HTML5 with Javascript and CSS3</div>
+        </div>
+    </div>
+
+    <script>
+    var x = document.getElementsByClassName("percentage");
+      for(var i=0; i< x.length; i++){
+       var y = x[i].attributes.perc.value;
+       x[i].style.width = 1.5*y + "px";
+      }
+    </script>
+
+  </body>
+</html>
