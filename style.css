@@ -8,8 +8,9 @@ hr{
   margin-left: 20px;
 }
 
-ul {
-  list-style-type: none;
+a, u {
+    text-decoration: none;
+    color: inherit;
 }
 
 .title{
