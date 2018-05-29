@@ -66,10 +66,22 @@ a, u {
 
 
 #profile{
-    height: 50%;
+    height: 32%;
     font-size: 12px;
     text-align: left;
     margin: 15px;
+}
+
+#corecompetencies{
+  font-size: 12px;
+  margin: 15px;
+}
+
+.compentency-title{
+  font-size: 13px;
+  color: #f39c12;
+  margin-top: 2px;
+  display: inline-block;
 }
 
 .profilepoints{
@@ -78,7 +90,7 @@ a, u {
 }
 
 #technicalskills{
-    height: 30%;
+    height: 20%;
     margin: 15px;
 }
 
